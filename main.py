@@ -5,9 +5,9 @@ from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
 from mangum import Mangum
 
-openai = OpenAI(
-    api_key='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'
-)
+# openai = OpenAI(
+#     api_key=''
+# )
 app = FastAPI()
 handler = Mangum(app)
 
