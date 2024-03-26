@@ -1,4 +1,4 @@
-from openai import OpenAI
+# from openai import OpenAI
 from fastapi import FastAPI, Form, Request
 from typing import Annotated
 from fastapi.templating import Jinja2Templates
@@ -8,6 +8,7 @@ from mangum import Mangum
 # openai = OpenAI(
 #     api_key=''
 # )
+
 app = FastAPI()
 handler = Mangum(app)
 
